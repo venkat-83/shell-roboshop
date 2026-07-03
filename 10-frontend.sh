@@ -1,7 +1,6 @@
 #!/bin/bash
 
 app_name=frontend
-source ./common.sh
 check_root
 
 dnf module disable nginx -y &>> $LOGS_FILE
